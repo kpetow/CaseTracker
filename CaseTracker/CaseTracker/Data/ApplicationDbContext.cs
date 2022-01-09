@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using CaseTracker.Models;
 
 namespace CaseTracker.Data
 {
@@ -9,5 +10,6 @@ namespace CaseTracker.Data
             : base(options)
         {
         }
+        public DbSet<CaseTracker.Models.Case> Case { get; set; }
     }
 }
