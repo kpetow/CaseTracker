@@ -11,7 +11,7 @@
         public string UserLastName { get; set; }
         public string ContactNum { get; set; }
         public string UserEmail { get; set; }
-        
-        
+
+
     }
 }

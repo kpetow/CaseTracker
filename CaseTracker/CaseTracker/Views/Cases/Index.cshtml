@@ -13,28 +13,28 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.status)
+                @Html.DisplayNameFor(model => model.CaseStatus)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.vslName)
+                @Html.DisplayNameFor(model => model.VslName)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.vslOffNum)
+                @Html.DisplayNameFor(model => model.VslOffNum)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.activityId)
+                @Html.DisplayNameFor(model => model.ActivityId)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.userFirstName)
+                @Html.DisplayNameFor(model => model.UserFirstName)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.userLastName)
+                @Html.DisplayNameFor(model => model.UserLastName)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.contactNum)
+                @Html.DisplayNameFor(model => model.ContactNum)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.userEmail)
+                @Html.DisplayNameFor(model => model.UserEmail)
             </th>
             <th></th>
         </tr>
@@ -43,28 +43,28 @@
 @foreach (var item in Model) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.status)
+                @Html.DisplayFor(modelItem => item.CaseStatus)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.vslName)
+                @Html.DisplayFor(modelItem => item.VslName)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.vslOffNum)
+                @Html.DisplayFor(modelItem => item.VslOffNum)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.activityId)
+                @Html.DisplayFor(modelItem => item.ActivityId)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.userFirstName)
+                @Html.DisplayFor(modelItem => item.UserFirstName)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.userLastName)
+                @Html.DisplayFor(modelItem => item.UserLastName)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.contactNum)
+                @Html.DisplayFor(modelItem => item.ContactNum)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.userEmail)
+                @Html.DisplayFor(modelItem => item.UserEmail)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |

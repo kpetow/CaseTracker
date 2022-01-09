@@ -4,7 +4,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>aspnet-CaseTracker-DAF5D7C1-ECA5-4880-8F32-7A879C3D0EF2</UserSecretsId>
+    <UserSecretsId>aspnet-CaseTracker-B26909F4-E88B-4C03-9C57-2D45BD3068F7</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>

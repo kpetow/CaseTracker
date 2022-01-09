@@ -55,7 +55,7 @@ namespace CaseTracker.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,status,vslName,vslOffNum,activityId,userFirstName,userLastName,contactNum,userEmail")] Case @case)
+        public async Task<IActionResult> Create([Bind("Id,CaseStatus,VslName,VslOffNum,ActivityId,UserFirstName,UserLastName,ContactNum,UserEmail")] Case @case)
         {
             if (ModelState.IsValid)
             {
@@ -87,7 +87,7 @@ namespace CaseTracker.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,status,vslName,vslOffNum,activityId,userFirstName,userLastName,contactNum,userEmail")] Case @case)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,CaseStatus,VslName,VslOffNum,ActivityId,UserFirstName,UserLastName,ContactNum,UserEmail")] Case @case)
         {
             if (id != @case.Id)
             {
