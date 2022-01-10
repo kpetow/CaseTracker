@@ -23,6 +23,7 @@ namespace CaseTracker.Controllers
         // GET: Cases
         public async Task<IActionResult> Index()
         {
+            IEnumerable<Case> objCaseList = _context.Case; //added from tutorial
             return View(await _context.Case.ToListAsync());
         }
 

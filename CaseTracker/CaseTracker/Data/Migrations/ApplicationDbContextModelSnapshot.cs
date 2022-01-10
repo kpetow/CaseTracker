@@ -41,6 +41,9 @@ namespace CaseTracker.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<DateTime>("CreatedDateTime")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("UserEmail")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");

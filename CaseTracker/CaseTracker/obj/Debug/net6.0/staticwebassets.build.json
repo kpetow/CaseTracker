@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7cv5Hl4CK+xWL10CHTIrBc3Gm65qK0N8HNxJpvK/CNw=",
+  "Hash": "r6e/LqnK5UkxX7PNCfXn1oaBz2nvUqObYIeh39Y9xA0=",
   "Source": "CaseTracker",
   "BasePath": "_content/CaseTracker",
   "Mode": "Default",
@@ -1069,6 +1069,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\kpeto\\source\\repos\\CaseTracker\\CaseTracker\\CaseTracker\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\CaseTracker.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\kpeto\\source\\repos\\CaseTracker\\CaseTracker\\CaseTracker\\wwwroot\\css\\BootswatchTheme.css",
+      "SourceId": "CaseTracker",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kpeto\\source\\repos\\CaseTracker\\CaseTracker\\CaseTracker\\wwwroot\\",
+      "BasePath": "_content/CaseTracker",
+      "RelativePath": "css/BootswatchTheme.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\BootswatchTheme.css"
     },
     {
       "Identity": "C:\\Users\\kpeto\\source\\repos\\CaseTracker\\CaseTracker\\CaseTracker\\wwwroot\\css\\site.css",

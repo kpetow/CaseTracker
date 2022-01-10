@@ -4,26 +4,35 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
+<div class="container p-3">
+    <div class="row pt-4">
+        <div class="col-6">
+            <h2 class="text-primary">Case Tracker</h2>
+        </div>
+        <div class="col-6 text-end" id="addBtn">
+            <a asp-controller="Cases" asp-action="Create" class="btn btn-primary">
+                <i class="bi bi-plus-square"></i> &nbsp; New Case</a>
+        </div> 
+    </div>
+    <br />
+
+
+<table class="table table-hover">
     <thead>
         <tr>
-            <th>
+            <th scope="col">
                 @Html.DisplayNameFor(model => model.CaseStatus)
+            </th>
+            <th scope="col">
+                @Html.DisplayNameFor(model => model.ActivityId)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.VslName)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.VslOffNum)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.ActivityId)
-            </th>
+            </th>            
             <th>
                 @Html.DisplayNameFor(model => model.UserFirstName)
             </th>
@@ -41,9 +50,12 @@
     </thead>
     <tbody>
 @foreach (var item in Model) {
-        <tr>
+        <tr class="table-primary">
             <td>
                 @Html.DisplayFor(modelItem => item.CaseStatus)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ActivityId)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.VslName)
@@ -51,9 +63,7 @@
             <td>
                 @Html.DisplayFor(modelItem => item.VslOffNum)
             </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ActivityId)
-            </td>
+            
             <td>
                 @Html.DisplayFor(modelItem => item.UserFirstName)
             </td>
@@ -75,3 +85,4 @@
 }
     </tbody>
 </table>
+</div>

@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CaseTracker.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20220109154054_initial setup")]
-    partial class initialsetup
+    [Migration("20220110011154_new")]
+    partial class @new
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -42,6 +42,9 @@ namespace CaseTracker.Data.Migrations
                     b.Property<string>("ContactNum")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("CreatedDateTime")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("UserEmail")
                         .IsRequired()
