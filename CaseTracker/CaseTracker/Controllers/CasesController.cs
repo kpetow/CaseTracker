@@ -67,6 +67,28 @@ namespace CaseTracker.Controllers
             return View(@case);
         }
 
+        //Create a case (user side)
+        public IActionResult userCreate()
+        {
+            return View();
+        }
+
+        // POST: Cases/Create
+        // To protect from overposting attacks, enable the specific properties you want to bind to.
+        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> userCreate([Bind("VslName,VslOffNum,UserFirstName,UserLastName,ContactNum,UserEmail")] Case @case)
+        {
+            if (ModelState.IsValid)
+            {
+                _context.Add(@case);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+            }
+            return View(@case);
+        }
+
         // GET: Cases/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {

@@ -1,0 +1,72 @@
+﻿@model CaseTracker.Models.Case
+
+@{
+    ViewData["Title"] = "userCreate";
+}
+
+<h1>Case Submission Form</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="userCreate">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+@*            <div class="form-group">
+                <label asp-for="ActivityId" class="control-label"></label>
+                <input asp-for="ActivityId" class="form-control" />
+                <span asp-validation-for="ActivityId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CreatedDateTime" class="control-label"></label>
+                <input asp-for="CreatedDateTime" class="form-control" />
+                <span asp-validation-for="CreatedDateTime" class="text-danger"></span>
+            </div>*@
+@*            <div class="form-group">
+                <label asp-for="CaseStatus" class="control-label"></label>
+                <input asp-for="CaseStatus" class="form-control" />
+                <span asp-validation-for="CaseStatus" class="text-danger"></span>
+            </div>*@
+            <div class="form-group">
+                <label asp-for="VslName" class="control-label">Vessel Name</label>
+                <input asp-for="VslName" class="form-control" />
+                <span asp-validation-for="VslName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="VslOffNum" class="control-label">Official Number</label>
+                <input asp-for="VslOffNum" class="form-control" />
+                <span asp-validation-for="VslOffNum" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UserFirstName" class="control-label">First Name</label>
+                <input asp-for="UserFirstName" class="form-control" />
+                <span asp-validation-for="UserFirstName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UserLastName" class="control-label">Last Name</label>
+                <input asp-for="UserLastName" class="form-control" />
+                <span asp-validation-for="UserLastName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ContactNum" class="control-label">Contact Phone Number</label>
+                <input asp-for="ContactNum" class="form-control" />
+                <span asp-validation-for="ContactNum" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UserEmail" class="control-label">Contact Email</label>
+                <input asp-for="UserEmail" class="form-control" />
+                <span asp-validation-for="UserEmail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
