@@ -62,6 +62,7 @@ namespace CaseTracker.Controllers
             {
                 _context.Add(@case);
                 await _context.SaveChangesAsync();
+                TempData["success"] = "Case created successfully";
                 return RedirectToAction(nameof(Index));
             }
             return View(@case);
@@ -122,6 +123,8 @@ namespace CaseTracker.Controllers
                 try
                 {
                     _context.Update(@case);
+                    _context.SaveChanges();
+                    TempData["success"] = "Case updated successfully";
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
@@ -166,6 +169,7 @@ namespace CaseTracker.Controllers
             var @case = await _context.Case.FindAsync(id);
             _context.Case.Remove(@case);
             await _context.SaveChangesAsync();
+            TempData["success"] = "Case deleted successfully";
             return RedirectToAction(nameof(Index));
         }
 
