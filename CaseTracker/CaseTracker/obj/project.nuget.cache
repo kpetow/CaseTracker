@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "JXyOzLYhJUkT/KKYix8T+AblHRHUHO8pVgYnDxNX2vrtZ3wCmBTkSbnmsthBctHybaWopJzR8NrQKiUmFiTLkg==",
+  "dgSpecHash": "yXXXfhR3V7ns9pLwhYQyKQ/s2ri7zS9EahfGi0siawKHZQLb33UVhyKFz5rGsybIVCBc2ywxL86bfrB1Jdd/5w==",
   "success": true,
   "projectFilePath": "C:\\Users\\kpeto\\source\\repos\\CaseTracker\\CaseTracker\\CaseTracker\\CaseTracker.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\kpeto\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
     "C:\\Users\\kpeto\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",
     "C:\\Users\\kpeto\\.nuget\\packages\\messagepackanalyzer\\2.1.152\\messagepackanalyzer.2.1.152.nupkg.sha512",
+    "C:\\Users\\kpeto\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\6.0.1\\microsoft.aspnetcore.authentication.google.6.0.1.nupkg.sha512",
     "C:\\Users\\kpeto\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.1\\microsoft.aspnetcore.cryptography.internal.6.0.1.nupkg.sha512",
     "C:\\Users\\kpeto\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.1\\microsoft.aspnetcore.cryptography.keyderivation.6.0.1.nupkg.sha512",
     "C:\\Users\\kpeto\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\6.0.1\\microsoft.aspnetcore.diagnostics.entityframeworkcore.6.0.1.nupkg.sha512",

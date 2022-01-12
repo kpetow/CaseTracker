@@ -269,3 +269,4 @@ C:\Users\kpeto\source\repos\CaseTracker\CaseTracker\CaseTracker\obj\Debug\net6.0
 C:\Users\kpeto\source\repos\CaseTracker\CaseTracker\CaseTracker\obj\Debug\net6.0\CaseTracker.pdb
 C:\Users\kpeto\source\repos\CaseTracker\CaseTracker\CaseTracker\obj\Debug\net6.0\CaseTracker.genruntimeconfig.cache
 C:\Users\kpeto\source\repos\CaseTracker\CaseTracker\CaseTracker\obj\Debug\net6.0\ref\CaseTracker.dll
+C:\Users\kpeto\source\repos\CaseTracker\CaseTracker\CaseTracker\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Google.dll
