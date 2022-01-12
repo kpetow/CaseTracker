@@ -6,9 +6,9 @@ namespace CaseTracker.Models
     {
         [Key]
         public int Id { get; set; }
-        public int ActivityId { get; set; } //assigned by employee
+        public int? ActivityId { get; set; } //assigned by employee
         public DateTime CreatedDateTime { get; set; } = DateTime.Now;
-        public string CaseStatus { get; set; }
+        public string CaseStatus { get; set; } = "Action Required";
         [Required]
         public string VslName { get; set; }
         public int VslOffNum { get; set; }    

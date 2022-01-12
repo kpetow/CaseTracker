@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAAx4Mjlg94k6w5kgiBXhJDwAAAAACAAAAAAAQZgAAAAEAACAAAAC2p354N2wIxlC+/scvy3Z0LKJrBWngrEmhWWMN08S24gAAAAAOgAAAAAIAACAAAADVtn03DC9AEbMqSnyopivYMnZLk0aB6GrbiDSgi/FfzoAAAACp9PiOyuyTnqMeM5+Y2NxP0Z8BofbNf6dNjLUzFTdhhVr125iytvzEJKbmFRTwAggZlwy69tCnophfmVC4CX6kB8zEle+jPRosXarwmMx1n3sNjAbAjBbSnJ9kZU/isn5hWEv5CQXhguzEdq69KQuMWcByIHXvPqg1cEf43ul/S0AAAACgVhaameejksuihrthn1Ez0O9HMPAMJ4oQWKI6D709YPBDs6bAKZ5PEe1kvJHOunreVMfRLHwvajBfFkDNmAiv</EncryptedPassword>
+    <History>True|2022-01-11T05:44:43.9040509Z;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=tcp:casetracker.database.windows.net,1433%3bInitial Catalog=CaseTracker_db%3bPersist Security Info=False%3bUser ID=admin-sql%3bPassword={n32%40pJUY%40aMPSth}%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>
