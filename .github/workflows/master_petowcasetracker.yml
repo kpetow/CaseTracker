@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'PetowCaseTracker'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C972747375BD49E59A8F2F57F7ECC76B }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_718F7C35B40A48B79ADB85D59C7CE5FF }}
           package: .
