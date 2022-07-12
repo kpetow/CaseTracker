@@ -8,73 +8,73 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CaseTracker
 build_property.RootNamespace = CaseTracker
-build_property.ProjectDir = C:\Users\kpeto\source\repos\CaseTracker\CaseTracker\CaseTracker\
+build_property.ProjectDir = C:\Users\PetowKevin\OneDrive - Applied Information Sciences\repos\case-tracker\CaseTracker\CaseTracker\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\kpeto\source\repos\CaseTracker\CaseTracker\CaseTracker
+build_property.MSBuildProjectDirectory = C:\Users\PetowKevin\OneDrive - Applied Information Sciences\repos\case-tracker\CaseTracker\CaseTracker
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/kpeto/source/repos/CaseTracker/CaseTracker/CaseTracker/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/PetowKevin/OneDrive - Applied Information Sciences/repos/case-tracker/CaseTracker/CaseTracker/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kpeto/source/repos/CaseTracker/CaseTracker/CaseTracker/Views/Cases/Create.cshtml]
+[C:/Users/PetowKevin/OneDrive - Applied Information Sciences/repos/case-tracker/CaseTracker/CaseTracker/Views/Cases/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FzZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kpeto/source/repos/CaseTracker/CaseTracker/CaseTracker/Views/Cases/Delete.cshtml]
+[C:/Users/PetowKevin/OneDrive - Applied Information Sciences/repos/case-tracker/CaseTracker/CaseTracker/Views/Cases/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FzZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kpeto/source/repos/CaseTracker/CaseTracker/CaseTracker/Views/Cases/Details.cshtml]
+[C:/Users/PetowKevin/OneDrive - Applied Information Sciences/repos/case-tracker/CaseTracker/CaseTracker/Views/Cases/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FzZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kpeto/source/repos/CaseTracker/CaseTracker/CaseTracker/Views/Cases/Edit.cshtml]
+[C:/Users/PetowKevin/OneDrive - Applied Information Sciences/repos/case-tracker/CaseTracker/CaseTracker/Views/Cases/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FzZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kpeto/source/repos/CaseTracker/CaseTracker/CaseTracker/Views/Cases/Index.cshtml]
+[C:/Users/PetowKevin/OneDrive - Applied Information Sciences/repos/case-tracker/CaseTracker/CaseTracker/Views/Cases/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FzZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kpeto/source/repos/CaseTracker/CaseTracker/CaseTracker/Views/Cases/userCreate.cshtml]
+[C:/Users/PetowKevin/OneDrive - Applied Information Sciences/repos/case-tracker/CaseTracker/CaseTracker/Views/Cases/userCreate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FzZXNcdXNlckNyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kpeto/source/repos/CaseTracker/CaseTracker/CaseTracker/Views/Home/Index.cshtml]
+[C:/Users/PetowKevin/OneDrive - Applied Information Sciences/repos/case-tracker/CaseTracker/CaseTracker/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kpeto/source/repos/CaseTracker/CaseTracker/CaseTracker/Views/Home/Privacy.cshtml]
+[C:/Users/PetowKevin/OneDrive - Applied Information Sciences/repos/case-tracker/CaseTracker/CaseTracker/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kpeto/source/repos/CaseTracker/CaseTracker/CaseTracker/Views/Shared/Error.cshtml]
+[C:/Users/PetowKevin/OneDrive - Applied Information Sciences/repos/case-tracker/CaseTracker/CaseTracker/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kpeto/source/repos/CaseTracker/CaseTracker/CaseTracker/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/PetowKevin/OneDrive - Applied Information Sciences/repos/case-tracker/CaseTracker/CaseTracker/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kpeto/source/repos/CaseTracker/CaseTracker/CaseTracker/Views/Shared/_notification.cshtml]
+[C:/Users/PetowKevin/OneDrive - Applied Information Sciences/repos/case-tracker/CaseTracker/CaseTracker/Views/Shared/_notification.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9ub3RpZmljYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kpeto/source/repos/CaseTracker/CaseTracker/CaseTracker/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/PetowKevin/OneDrive - Applied Information Sciences/repos/case-tracker/CaseTracker/CaseTracker/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kpeto/source/repos/CaseTracker/CaseTracker/CaseTracker/Views/_ViewImports.cshtml]
+[C:/Users/PetowKevin/OneDrive - Applied Information Sciences/repos/case-tracker/CaseTracker/CaseTracker/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kpeto/source/repos/CaseTracker/CaseTracker/CaseTracker/Views/_ViewStart.cshtml]
+[C:/Users/PetowKevin/OneDrive - Applied Information Sciences/repos/case-tracker/CaseTracker/CaseTracker/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kpeto/source/repos/CaseTracker/CaseTracker/CaseTracker/Views/Shared/_Layout.cshtml]
+[C:/Users/PetowKevin/OneDrive - Applied Information Sciences/repos/case-tracker/CaseTracker/CaseTracker/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-itjshnmney

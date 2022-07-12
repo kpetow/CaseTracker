@@ -9855,24 +9855,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kpeto\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\PetowKevin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kpeto\\source\\repos\\CaseTracker\\CaseTracker\\CaseTracker\\CaseTracker.csproj",
+      "projectUniqueName": "C:\\Users\\PetowKevin\\OneDrive - Applied Information Sciences\\repos\\case-tracker\\CaseTracker\\CaseTracker\\CaseTracker.csproj",
       "projectName": "CaseTracker",
-      "projectPath": "C:\\Users\\kpeto\\source\\repos\\CaseTracker\\CaseTracker\\CaseTracker\\CaseTracker.csproj",
-      "packagesPath": "C:\\Users\\kpeto\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kpeto\\source\\repos\\CaseTracker\\CaseTracker\\CaseTracker\\obj\\",
+      "projectPath": "C:\\Users\\PetowKevin\\OneDrive - Applied Information Sciences\\repos\\case-tracker\\CaseTracker\\CaseTracker\\CaseTracker.csproj",
+      "packagesPath": "C:\\Users\\PetowKevin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\PetowKevin\\OneDrive - Applied Information Sciences\\repos\\case-tracker\\CaseTracker\\CaseTracker\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\kpeto\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\PetowKevin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9945,7 +9940,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200-preview.21617.4\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }
